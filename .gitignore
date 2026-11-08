@@ -1,0 +1,23 @@
+# Local data and runtime outputs
+data/
+working/
+*.csv
+*.parquet
+best_transformer/
+best_recurrent_model.pt
+*.pth
+*.safetensors
+model_comparison.csv
+classes.json
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environment and editor files
+.venv/
+venv/
+.env
+.vscode/
+.idea/
